@@ -11,7 +11,8 @@ This script scrapes data from [Registro Aziende](https://registroaziende.it/) fo
 - retrying
 - concurrent.futures
 
-1. **codes file:** the file is included in the repo.
+1. **Modify File Paths:** Adjust the paths for log folders and files within the script according to your system configuration.
+Ensure that the ATECO.txt file is available at the specified location in the script.
 
 2. **Run the Script:** Execute the script using Python.
 
@@ -41,4 +42,7 @@ The script creates two files in the log folder for each ATECO code:
 - This script uses exponential backoff retry logic to handle temporary network issues.
 - The script creates a separate process for scraping each ATECO code to improve performance.
 
-I hope this README helps! Let me know if you have any questions.
+  **Disclaimer:**
+This script is provided for educational purposes only. The user is solely responsible for its usage and should adhere to ethical standards. The author assumes no responsibility for any misuse or unauthorized actions.
+
+I hope this README helps!
