@@ -11,7 +11,7 @@ This script scrapes data from [Registro Aziende](https://registroaziende.it/) fo
 - retrying
 - concurrent.futures
 
-1. **Create a codes file:** Create a text file named `ATECO.txt` in your Google Drive directory at `/content/drive/My Drive/scraping/`. Add one ATECO code per line in this file.
+1. **codes file:** the file is included in the repo.
 
 2. **Run the Script:** Execute the script using Python.
 
